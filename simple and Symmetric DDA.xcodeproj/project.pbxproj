@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A51DDF3D1E2CEAD1000B239D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A51DDF3C1E2CEAD1000B239D /* main.c */; };
+		A51DDF451E2CEAE9000B239D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51DDF441E2CEAE9000B239D /* OpenGL.framework */; };
+		A51DDF471E2CEAF3000B239D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51DDF461E2CEAF3000B239D /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A51DDF391E2CEAD1000B239D /* simple and Symmetric DDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "simple and Symmetric DDA"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51DDF3C1E2CEAD1000B239D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A51DDF441E2CEAE9000B239D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A51DDF461E2CEAF3000B239D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51DDF471E2CEAF3000B239D /* GLUT.framework in Frameworks */,
+				A51DDF451E2CEAE9000B239D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				A51DDF3B1E2CEAD1000B239D /* simple and Symmetric DDA */,
 				A51DDF3A1E2CEAD1000B239D /* Products */,
+				A51DDF431E2CEAE9000B239D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				A51DDF3C1E2CEAD1000B239D /* main.c */,
 			);
 			path = "simple and Symmetric DDA";
+			sourceTree = "<group>";
+		};
+		A51DDF431E2CEAE9000B239D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A51DDF461E2CEAF3000B239D /* GLUT.framework */,
+				A51DDF441E2CEAE9000B239D /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
